@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Petshop Melhor Amigo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1>🐾 Melhor Amigo</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="galeria.html" class="active">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Galeria de Fotos</h1>
+                <p>Nossa galeria é o reflexo do nosso amor e cuidado pelos animais. Aqui você pode ver alguns dos adoráveis clientes que já passaram pelo nosso petshop.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="caes">Cães</button>
+                    <button class="filter-btn" data-filter="gatos">Gatos</button>
+                    <button class="filter-btn" data-filter="antes-depois">Antes & Depois</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Cães -->
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog1.jpg" alt="Golden Retriever após tosa">
+                        <div class="gallery-overlay">
+                            <h3>Max - Golden Retriever</h3>
+                            <p>Após tosa especializada - Cliente satisfeito há 3 anos!</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog2.jpg" alt="Poodle após banho e tosa">
+                        <div class="gallery-overlay">
+                            <h3>Bella - Poodle</h3>
+                            <p>Banho relaxante + Tosa personalizada</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog3.jpg" alt="Bulldog Francês feliz">
+                        <div class="gallery-overlay">
+                            <h3>Thor - Bulldog Francês</h3>
+                            <p>Higienização completa - Sempre um prazer atender!</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog4.jpg" alt="Labrador após cuidados">
+                        <div class="gallery-overlay">
+                            <h3>Luna - Labrador</h3>
+                            <p>Banho + Corte de unhas + Limpeza auricular</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog5.jpg" alt="Yorkshire após tosa">
+                        <div class="gallery-overlay">
+                            <h3>Pipoca - Yorkshire</h3>
+                            <p>Tosa higiênica + Laço especial</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog6.jpg" alt="Shih Tzu feliz">
+                        <div class="gallery-overlay">
+                            <h3>Mel - Shih Tzu</h3>
+                            <p>Cliente VIP - Visita mensal garantida!</p>
+                        </div>
+                    </div>
+
+                    <!-- Gatos -->
+                    <div class="gallery-item" data-category="gatos">
+                        <img src="images/gallery/cat1.jpg" alt="Gato Persa após banho">
+                        <div class="gallery-overlay">
+                            <h3>Simba - Persa</h3>
+                            <p>Banho especial para gatos de pelo longo</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gatos">
+                        <img src="images/gallery/cat2.jpg" alt="Gato SRD após cuidados">
+                        <div class="gallery-overlay">
+                            <h3>Mimi - SRD</h3>
+                            <p>Higienização completa + Corte de unhas</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gatos">
+                        <img src="images/gallery/cat3.jpg" alt="Gato Siamês relaxado">
+                        <div class="gallery-overlay">
+                            <h3>Blue - Siamês</h3>
+                            <p>Banho relaxante com aromaterapia</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gatos">
+                        <img src="images/gallery/cat4.jpg" alt="Gato Maine Coon">
+                        <div class="gallery-overlay">
+                            <h3>Leo - Maine Coon</h3>
+                            <p>Escovação profissional + Hidratação do pelo</p>
+                        </div>
+                    </div>
+
+                    <!-- Antes e Depois -->
+                    <div class="gallery-item" data-category="antes-depois">
+                        <img src="images/gallery/before-after1.jpg" alt="Transformação incrível">
+                        <div class="gallery-overlay">
+                            <h3>Buddy - Antes & Depois</h3>
+                            <p>Transformação completa - Tosa + Banho + Cuidados especiais</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="antes-depois">
+                        <img src="images/gallery/before-after2.jpg" alt="Makeover completo">
+                        <div class="gallery-overlay">
+                            <h3>Princesa - Makeover</h3>
+                            <p>De neglect a diva - História emocionante de recuperação</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="antes-depois">
+                        <img src="images/gallery/before-after3.jpg" alt="Transformação de resgate">
+                        <div class="gallery-overlay">
+                            <h3>Hope - Resgate</h3>
+                            <p>Cuidados especiais para animal resgatado</p>
+                        </div>
+                    </div>
+
+                    <!-- Mais fotos de cães -->
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog7.jpg" alt="Border Collie brincando">
+                        <div class="gallery-overlay">
+                            <h3>Rex - Border Collie</h3>
+                            <p>Momento de diversão após os cuidados</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog8.jpg" alt="Beagle sorrindo">
+                        <div class="gallery-overlay">
+                            <h3>Cookie - Beagle</h3>
+                            <p>Sempre alegre e bem cuidado</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="caes">
+                        <img src="images/gallery/dog9.jpg" alt="Husky Siberiano">
+                        <div class="gallery-overlay">
+                            <h3>Storm - Husky Siberiano</h3>
+                            <p>Cuidados especiais para pelagem dupla</p>
+                        </div>
+                    </div>
+
+                    <!-- Mais gatos -->
+                    <div class="gallery-item" data-category="gatos">
+                        <img src="images/gallery/cat5.jpg" alt="Gato Bengala">
+                        <div class="gallery-overlay">
+                            <h3>Tiger - Bengala</h3>
+                            <p>Banho especial para manter o brilho natural</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gatos">
+                        <img src="images/gallery/cat6.jpg" alt="Gato Ragdoll">
+                        <div class="gallery-overlay">
+                            <h3>Angel - Ragdoll</h3>
+                            <p>Escovação delicada para pelos longos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button class="load-more-btn" onclick="loadMorePhotos()">Carregar Mais Fotos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2>O que nossos clientes dizem</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p>"Meu Max sempre sai lindo daqui! A equipe é super carinhosa e profissional. Recomendo para todos!"</p>
+                        <div class="testimonial-author">
+                            <strong>Maria Silva</strong>
+                            <span>Dona do Max (Golden Retriever)</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"O melhor petshop da região! Minha Bella adora vir aqui. O cuidado com os animais é excepcional."</p>
+                        <div class="testimonial-author">
+                            <strong>João Santos</strong>
+                            <span>Dono da Bella (Poodle)</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Confio totalmente na equipe do Melhor Amigo. Eles transformaram meu gatinho resgatado!"</p>
+                        <div class="testimonial-author">
+                            <strong>Ana Costa</strong>
+                            <span>Dona do Simba (Persa)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Seu pet merece estar aqui também!</h2>
+                <p>Agende um horário e proporcione ao seu melhor amigo o cuidado que ele merece.</p>
+                <a href="contato.html" class="cta-button">Agendar Agora</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para ampliar imagens -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+        <div class="modal-nav">
+            <button class="modal-prev" onclick="changeImage(-1)">❮</button>
+            <button class="modal-next" onclick="changeImage(1)">❯</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🐾 Melhor Amigo</h3>
+                    <p>Cuidando do seu melhor amigo com amor e dedicação há mais de 10 anos.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 99999-9999</p>
+                    <p>📧 contato@melhoramigo.com.br</p>
+                    <p>📍 Rua dos Pets, 123 - São Paulo</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horário de Funcionamento</h4>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 16h</p>
+                    <p>Domingo: 9h às 14h</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Petshop Melhor Amigo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

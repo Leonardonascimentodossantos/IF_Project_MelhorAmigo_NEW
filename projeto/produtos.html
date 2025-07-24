@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Petshop Melhor Amigo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1>🐾 Melhor Amigo</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Nossos Produtos e Serviços</h1>
+                <p>Tudo o que seu melhor amigo precisa em um só lugar</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products">
+            <div class="container">
+                <!-- Limpeza -->
+                <div class="product-category">
+                    <h2>🧼 Serviços de Limpeza</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="images/banho-relaxante.jpg" alt="Banho Relaxante">
+                            <h3>Banho Relaxante</h3>
+                            <p>Oferecemos banhos relaxantes para cães e gatos. Utilizamos produtos de qualidade, seguros e adequados para cada tipo de pelagem, garantindo uma limpeza profunda e refrescante.</p>
+                            <div class="product-price">A partir de R$ 35,00</div>
+                            <button class="product-btn" onclick="requestInfo('Banho Relaxante')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/higiene-completa.jpg" alt="Higienização Completa">
+                            <h3>Higienização Completa</h3>
+                            <p>Serviço completo que inclui banho, limpeza de ouvidos, corte de unhas e higienização geral. Seu pet sairá completamente limpo e cuidado.</p>
+                            <div class="product-price">A partir de R$ 55,00</div>
+                            <button class="product-btn" onclick="requestInfo('Higienização Completa')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/produtos-higiene.jpg" alt="Produtos de Higiene">
+                            <h3>Produtos de Higiene</h3>
+                            <p>Shampoos e condicionadores específicos, produtos de limpeza auricular e ocular, escovas e pentes para manter os pelos saudáveis.</p>
+                            <div class="product-price">A partir de R$ 15,00</div>
+                            <button class="product-btn" onclick="requestInfo('Produtos de Higiene')">Solicitar Informações</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tosa -->
+                <div class="product-category">
+                    <h2>✂️ Serviços de Tosa</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="images/tosa-especializada.jpg" alt="Tosa Especializada">
+                            <h3>Tosa Especializada</h3>
+                            <p>Serviços profissionais de tosa para cães de todas as raças. Nossos tosadores experientes utilizam técnicas avançadas para garantir um visual impecável.</p>
+                            <div class="product-price">A partir de R$ 45,00</div>
+                            <button class="product-btn" onclick="requestInfo('Tosa Especializada')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/corte-personalizado.jpg" alt="Corte Personalizado">
+                            <h3>Corte Personalizado</h3>
+                            <p>Cortes de pelos personalizados de acordo com a raça e preferência do dono. Deixamos seu pet com o visual que você sempre sonhou.</p>
+                            <div class="product-price">A partir de R$ 50,00</div>
+                            <button class="product-btn" onclick="requestInfo('Corte Personalizado')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/tosa-higienica.jpg" alt="Tosa Higiênica">
+                            <h3>Tosa Higiênica</h3>
+                            <p>Focada na higiene e saúde do animal, inclui corte em áreas específicas para manter a limpeza e o conforto do seu pet.</p>
+                            <div class="product-price">A partir de R$ 30,00</div>
+                            <button class="product-btn" onclick="requestInfo('Tosa Higiênica')">Solicitar Informações</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ração -->
+                <div class="product-category">
+                    <h2>🥘 Rações e Alimentação</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="images/racao-premium.jpg" alt="Ração Premium">
+                            <h3>Ração Premium</h3>
+                            <p>Seleção de rações premium para cães e gatos. Formuladas com ingredientes de alta qualidade, garantindo nutrição balanceada e adequada.</p>
+                            <div class="product-price">A partir de R$ 45,00</div>
+                            <button class="product-btn" onclick="requestInfo('Ração Premium')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/racao-filhotes.jpg" alt="Ração para Filhotes">
+                            <h3>Ração para Filhotes</h3>
+                            <p>Rações especialmente formuladas para filhotes, com todos os nutrientes necessários para um crescimento saudável e forte.</p>
+                            <div class="product-price">A partir de R$ 55,00</div>
+                            <button class="product-btn" onclick="requestInfo('Ração para Filhotes')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/alimentos-balanceados.jpg" alt="Alimentos Balanceados">
+                            <h3>Alimentos Balanceados</h3>
+                            <p>Ampla variedade de alimentos balanceados, adaptados às necessidades individuais de cada animal, com orientação especializada.</p>
+                            <div class="product-price">A partir de R$ 25,00</div>
+                            <button class="product-btn" onclick="requestInfo('Alimentos Balanceados')">Solicitar Informações</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produtos Extras -->
+                <div class="product-category">
+                    <h2>🎾 Brinquedos e Acessórios</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="images/brinquedos-interativos.jpg" alt="Brinquedos Interativos">
+                            <h3>Brinquedos Interativos</h3>
+                            <p>Brinquedos que estimulam a mente e o corpo do seu pet, promovendo exercício físico e mental. Para cães e gatos de todos os tamanhos.</p>
+                            <div class="product-price">A partir de R$ 20,00</div>
+                            <button class="product-btn" onclick="requestInfo('Brinquedos Interativos')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/acessorios.jpg" alt="Acessórios">
+                            <h3>Acessórios Essenciais</h3>
+                            <p>Coleiras, guias, comedouros e bebedouros. Tudo o que você precisa para manter seu animalzinho confortável e bem cuidado.</p>
+                            <div class="product-price">A partir de R$ 15,00</div>
+                            <button class="product-btn" onclick="requestInfo('Acessórios Essenciais')">Solicitar Informações</button>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/brinquedos-mastigacao.jpg" alt="Brinquedos de Mastigação">
+                            <h3>Brinquedos de Mastigação</h3>
+                            <p>Brinquedos duráveis para mastigação que ajudam na saúde dental e proporcionam horas de entretenimento saudável.</p>
+                            <div class="product-price">A partir de R$ 12,00</div>
+                            <button class="product-btn" onclick="requestInfo('Brinquedos de Mastigação')">Solicitar Informações</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Precisa de orientação personalizada?</h2>
+                <p>Nossos especialistas estão disponíveis para ajudá-lo a escolher a melhor opção para o seu amiguinho.</p>
+                <a href="contato.html" class="cta-button">Fale Conosco</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🐾 Melhor Amigo</h3>
+                    <p>Cuidando do seu melhor amigo com amor e dedicação há mais de 10 anos.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 99999-9999</p>
+                    <p>📧 contato@melhoramigo.com.br</p>
+                    <p>📍 Rua dos Pets, 123 - São Paulo</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horário de Funcionamento</h4>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 16h</p>
+                    <p>Domingo: 9h às 14h</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Petshop Melhor Amigo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
